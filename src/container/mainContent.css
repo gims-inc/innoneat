@@ -1,0 +1,385 @@
+
+
+
+.video-container{
+    width: 90%;
+    padding: 5%;
+    margin-left: 10%;
+   
+}
+
+.about-logo{
+    shape-outside: circle(50%);
+    border-radius: 50%;
+    float:inline-end;
+}
+
+
+iframe{
+    aspect-ratio: 16/9;
+    width: 90%;
+    height:40%;
+}
+
+.form_border{
+    border-style:none;
+    text-align: center;
+ }
+
+ form .btn2{
+     margin-left: 70%;
+     padding:10px;
+ }
+
+ /* .btn{
+    padding:10px; 
+ } */
+
+ .contact-us{
+     background: url(../assets/images/dotted-map-bg.png);
+     background-color: rgb(110, 116, 122);
+     padding-top: 50px;
+     color:aliceblue     
+}
+.contact-us h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+
+ .subscribe{
+    background: url(../assets/images/BLACK.jpg);
+    height: 300px;
+    padding-top: 50px;
+    color:whitesmoke;
+ }
+
+ .about{
+     padding-top: 40px;
+     
+ }
+
+ .about h3,h5{
+     font-weight: bold;
+     padding-top:20p ;
+ }
+
+ .about h4{
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .moreinfo .mission{
+    padding-top:10%;
+   
+}
+
+.what-we-do{
+    padding:5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreinfo{ 
+    padding-bottom:5%;
+}
+
+.features-icon{
+    height: 1%;
+    width: 1%;
+}
+
+.features-content p{
+    color: midnightblue;
+    font-size: 0.9rem;
+}
+
+input{
+    caret-color: turquoise;
+    
+}
+
+/* placeholder color */
+[type="text"]::placeholder{
+    color: azure;
+}
+[type="tel"]::placeholder{
+    color: azure;
+}
+[type="email"]::placeholder{
+    color: azure;
+}
+/* placeholder color */
+
+.mission p{
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    color: midnightblue;
+    position: relative;
+    
+}
+.mission .row{
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 1px 12px rgba(0, 0, 0, 0.25);
+    border:1px solid rgba(255, 255, 255, 0.3);
+   
+}
+
+.contact-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact a{
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: white;
+    background-color:inherit;
+    color:white;
+    text-decoration: whitesmoke;
+  }
+
+  input:focus-visible{
+      outline: 4px dashed rgba(213, 218, 219, 0.919);
+  }
+  
+  .no-outline:focus {
+    outline: none;
+  }
+
+
+
+  /* shake on invaid input */
+  input:invalid{
+      animation: shake 0.2s ease-in-out 0s 2;
+      box-shadow: 0 0 0.4em rgb(40, 197, 176);
+  }
+  @keyframes shake{
+      0%{margin-left:0rem;}
+      25%{margin-left:0.5rem;}
+      75%{margin-left:-0.5rem;}
+      100%{margin-left:0rem;}
+  }
+
+ /* shake on invaid input */
+
+
+
+  /* .home{
+      display: inline;
+  } */
+
+  .service-item{
+    border-radius: 8px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 1px 12px rgba(0, 0, 0, 0.25);
+    border:1px solid rgba(255, 255, 255, 0.3);
+
+    
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    gap: 10px;
+
+  }
+  .service-item:hover{
+      transform: scale(1.1);
+  }
+
+  hr{
+      width: 80%;
+      margin: auto;
+     
+  }
+
+
+  /* section three*/
+  .main-pat{
+      padding-bottom: 15px;
+  }
+
+  .partners{
+      padding-top:15px;;
+      padding-bottom:10%;
+      margin-left: 5%;
+      width: 90%;
+      border-radius: 8px;
+    
+      
+  }
+
+  .partners h3{
+      padding-top: 60px;
+      /* margin: auto; */
+      padding-left: 45%;
+      padding-bottom: 30px;
+      font-weight: bold;
+      color: steelblue;
+      
+  }
+
+  .partner-item{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+     
+
+  }
+
+  .pat-item{
+    padding:10px;
+
+  }
+
+  .imgDiv img{
+    width: 100px;
+    height: 40px;
+    background-color: inherit;
+    filter: grayscale(100%);
+  }
+
+  .imgDiv img:hover{
+      filter: grayscale(0%);
+      transform: scale(1.5);
+  }
+
+ .bg{
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 1px 12px rgba(0, 0, 0, 0.25);
+    border:1px solid rgba(255, 255, 255, 0.3);
+  }
+
+
+  .carousel{
+    margin-top: 0px;
+    }
+
+
+
+  /*----------phones----------- */
+  @media only screen and (max-width: 615px){  
+    .carousel h3,h4,h5{
+     padding:0%;
+        /* font-size:0.5rem ; */
+        
+    }
+    .partner-item{
+        display:block;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin: 30%;
+    }
+    .partners h3{
+        padding-top: 60px;
+        /* margin: auto; */
+        padding-left: 30%;
+    }
+
+    .contact{
+        display: block;
+    }
+
+    .contact-row{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .contact-row .col{
+        padding-bottom: 30px;
+    }
+
+    /* .btn2{
+        /* margin: auto; */
+        /* padding-left:30px; 
+    } */
+
+    .carousel{
+        padding-top:0px;
+        }
+
+    .carousel h3,.carousel h4,.carousel h5 {
+            padding-bottom: 0%;
+            font-size: 0.5rem;
+            display: none;
+    }
+
+    .features-content p{
+        color:midnightblue;
+        font-size: 0.9rem;
+        text-align: center;
+        
+    }
+    .about h3, .about h4, .about h5{
+        text-align: center;
+        font-weight: bold;
+        color:slategray
+    
+    }
+    .about{
+        padding-top: 100px;
+    }
+
+    iframe{
+        /* aspect-ratio: 16/9; */
+        width: 100%;
+        height:40%;
+    }
+
+    .video-container{
+        width: 100%;
+        
+        margin: auto;
+    }
+    
+}
+
+/* -------phones-landscape------ */
+
+@media only screen and (max-width: 810px){
+
+    .contact{
+        display: block;
+    }
+
+    .contact-row{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .contact-row .col{
+        padding-bottom: 30px;
+    }
+    .carousel{
+        margin-top:60px;
+     }
+
+     input{
+         width:90%
+     }
+
+}
+
+/* transform: rotate(-20deg); */

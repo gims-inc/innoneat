@@ -1,0 +1,74 @@
+.nav div+div ::before{
+    content:"|";
+    padding: 0.5rem;
+}
+
+.nav-bars-icon{
+    display:none;
+}
+
+.head{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    
+    z-index: 1000;
+    /*max-width: 68.75rem;
+    width: 90vw;*/
+}
+/* .nav{
+    max-width: 68.75rem;
+    width: 90vw;
+} */
+
+.navbar{
+   background-color:black;
+   color: whitesmoke;
+   
+}
+/* @media (min-width: 992px) {
+    .nav{
+        width: 100%;
+    }
+} */
+
+
+.hl{
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.hl2{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.hl:active{
+    color: rgb(0, 119, 128);
+}
+.hl:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {  
+    
+    .nav-bars-icon{
+        display:flex;
+        float: right;
+    }
+    .nav-bars-icon:hover{
+        cursor: pointer;
+    }
+    /* .logo{
+        margin-left:40%;
+    }
+    .nav div+div ::before{
+        content:"";
+        padding: 0.5rem;
+    } */
+
+
+}

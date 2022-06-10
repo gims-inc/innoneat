@@ -1,0 +1,18 @@
+.foot{
+    padding-top: 70px;
+    margin-bottom: 0%;
+    background-image:url(/public/assets/images/banner-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: rgb(206, 219, 219);
+    
+}
+ .social{
+     float: right;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+
+ }
